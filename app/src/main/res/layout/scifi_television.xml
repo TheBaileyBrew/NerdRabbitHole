@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/sci_fi_tv_replacement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="24dp">
+            <!-- Question One-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/scifi_tv_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="When did Firefly first air on FOX Networks?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <!-- Image Header for Question-->
+                    <ImageView
+                        android:id="@+id/scifi_tv_imageview_question_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/cast"/>
+                    <!-- Button Layout for Question-->
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view_question_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_one_answer_one"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="November 2002"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_one_answer_two"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="September 2002"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view2_question_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_one_answer_three"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="October 2003"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_one_answer_four"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="August 2004"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/scifi_tv_question_one_result_on_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="22dp"
+                        android:text="CORRECT"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/scifi_tv_question_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Who Portrayed Captain Jack O'Neill in Stargate SG1?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <!-- Image Header for Question-->
+                    <ImageView
+                        android:id="@+id/scifi_tv_imageview_question_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/stargate"/>
+                    <!-- Button Layout for Question-->
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view_question_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_two_answer_one"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Richard Dean Andserson"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_two_answer_two"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Kurt Russell"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view2_question_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_two_answer_three"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="James Spader"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_two_answer_four"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Michael Shanks"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/scifi_tv_question_two_result_on_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="22dp"
+                        android:text="CORRECT"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/scifi_tv_question_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Which Farscape actor was supposed to star in Stargate: Atlantis?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <!-- Image Header for Question-->
+                    <ImageView
+                        android:id="@+id/scifi_tv_imageview_question_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/farscape_cast"/>
+                    <!-- Button Layout for Question-->
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view_question_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_three_answer_one"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Claudia Black"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_three_answer_two"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Joe Flanigan"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view2_question_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_three_answer_three"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Ben Browder"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_three_answer_four"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Gigi Edgley"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/scifi_tv_question_three_result_on_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="22dp"
+                        android:text="CORRECT"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/scifi_tv_question_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Battlestar Pegasus set was recycled from what sci-fi pilot?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <!-- Image Header for Question-->
+                    <ImageView
+                        android:id="@+id/scifi_tv_imageview_question_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/battlestar"/>
+                    <!-- Button Layout for Question-->
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view_question_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_four_answer_one"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Star Trek: TOS"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_four_answer_two"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="The Robinsons: Lost in Space"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view2_question_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_four_answer_three"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="X-Files"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_four_answer_four"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Firefly"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/scifi_tv_question_four_result_on_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="22dp"
+                        android:text="CORRECT"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/scifi_tv_question_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="24dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Which famous director nearly designed the original Daleks in Doctor Who?"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <!-- Image Header for Question-->
+                    <ImageView
+                        android:id="@+id/scifi_tv_imageview_question_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/daleks_design"/>
+                    <!-- Button Layout for Question-->
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view_question_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_five_answer_one"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Ridley Scott"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_five_answer_two"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Stanley Kubrick"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/scifi_tv_button_view2_question_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+                        <Button
+                            android:id="@+id/scifi_tv_question_five_answer_three"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Roland Emmerich"/>
+                        <Button
+                            android:id="@+id/scifi_tv_question_five_answer_four"
+                            style="@style/Base.Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="James Cameron"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/scifi_tv_question_five_result_on_click"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="22dp"
+                        android:text="CORRECT"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <Button
+                android:id="@+id/next_category"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Next Category"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
